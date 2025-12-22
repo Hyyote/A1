@@ -1,3 +1,5 @@
+# Took out some services and commands that broke later Windows builds, network and input devices.
+
 
 #                *******************************************************
 #                 MeKLiN Method A1 DeSTRoYeR KIT FOR WINDOWS v3.1
