@@ -77,7 +77,6 @@ copy %SCRIPTPATH%\DEVCON.EXE %systemdrive%\windows\system32
 copy %SCRIPTPATH%\fcv.exe %systemdrive%\windows\system32
 copy %SCRIPTPATH%\CLEANMGR.BAT %systemdrive%\windows\system32
 copy %SCRIPTPATH%\CLEANMGR2.BAT %systemdrive%\windows\system32
-copy %SCRIPTPATH%\POWERCFG3.BAT %systemdrive%\windows\system32
 copy %SCRIPTPATH%\R.BAT %systemdrive%\windows\system32
 REG IMPORT %SCRIPTPATH%\SearchKit.reg
 REG IMPORT %SCRIPTPATH%\SearchKitSmall.reg
@@ -154,4 +153,5 @@ echo MACHINE.BAT COMPLETED
 goto :choice2
 :somewhere_else
 echo BYE!
+
 pause
